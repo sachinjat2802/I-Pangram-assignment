@@ -6,7 +6,6 @@ class TaskController{
     async createTask(req,res){
         const data = req.body;
         if(data.name){
-
             const task = await new  CrudOperations(Task).getDocument({"name":data.name,"isDeleted":false});
             if(task){
                 return res.status(400).json({
