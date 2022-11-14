@@ -1,5 +1,5 @@
 import CrudOperations from "../../utils/crudOpertions/moongodbCrud.js";
-import {Users,UserRole}from "../../models/Users.js";
+import {Users,UserRole}from "../../models/users.js";
 import bcrypt from "bcryptjs";
 import JwtGenerator from "../../utils/jwt/jwtGenerator.js";
 

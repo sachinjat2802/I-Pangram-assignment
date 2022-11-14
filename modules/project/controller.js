@@ -2,7 +2,7 @@
 import {Project}from "../../models/project.js";
 import CrudOperations from "../../utils/crudOpertions/moongodbCrud.js";
 import {verifyTokenMentor,verifyTokenEmployee} from "../../utils/jwt/currentUser.js";
-import {UserRole}from "../../models/Users.js";
+import {UserRole}from "../../models/users.js";
 
 
 
