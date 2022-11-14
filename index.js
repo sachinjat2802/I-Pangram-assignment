@@ -21,7 +21,9 @@ mongoose
   .then(() => {
     return console.log("connected to db")
   }
+
   ).catch(error => {
     throw error
   }),
+
 console.log(`Server running on port ${PORT}`));
